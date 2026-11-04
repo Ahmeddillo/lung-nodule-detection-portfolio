@@ -2,7 +2,7 @@
 
 > **TÜBİTAK Supported Academic Research & Capstone Project**  
 > *Faculty of Engineering, Department of Computer Engineering — Inonu University*  
-> **Lead Researcher:** Ahmed Dillo (Top Graduate of Engineering Faculty, 3.75 GPA)  
+> **Lead Researcher:** Ahmed Dillo  
 > **Academic Advisor:** Assoc. Prof. Dr. Ahmet Arif AYDIN  
 
 ---
