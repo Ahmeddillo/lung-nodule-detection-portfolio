@@ -56,8 +56,8 @@ To improve model focus on pathological parenchymal structures, raw CT slices und
 * **Edge-Preserving Bilateral Filter:** Eliminates high-frequency CT scan noise without degrading sharp nodule boundaries.
 * **Contrast Limited Adaptive Histogram Equalization (CLAHE):** Enhances soft-tissue contrast within the pulmonary region.
 
-*(Place image here: `assets/enhancement_pipeline.png`)*  
-![Image Enhancement & Mask Overlay](./assets/enhancement_pipeline.png)
+<img width="782" height="293" alt="image" src="https://github.com/user-attachments/assets/8e351649-9f5c-4f0a-bce8-52d4bd8f874e" />
+
 
 ---
 
@@ -65,8 +65,8 @@ To improve model focus on pathological parenchymal structures, raw CT slices und
 * **Bounding Box Crop:** Extracts targeted nodule sub-regions based on radiologist annotations.
 * **Balanced Augmentation:** Applies spatial rotations (90°, 270°), horizontal/vertical flips, and contrast perturbations—expanding the ROI training pool from **15,424** to **46,272** normalized samples to mitigate overfitting.
 
-*(Place image here: `assets/roi_crop_augmentation.png`)*  
-![ROI Extraction and Augmentation](./assets/roi_crop_augmentation.png)
+<img width="787" height="296" alt="image" src="https://github.com/user-attachments/assets/ca1197e9-72a4-4286-a254-2936786c21a9" />
+
 
 ---
 
@@ -75,8 +75,8 @@ A lightweight **Streamlit** dashboard allows clinicians to upload CT slice image
 * **Dynamic Model Inference:** Automatically locates pulmonary nodules using fine-tuned YOLO detection weights.
 * **Automated Crop Persistence:** Selects the highest-confidence bounding box, crops the ROI, and routes it to downstream segmentation modules.
 
-*(Place image here: `assets/streamlit_yolo_detection.png`)*  
-![YOLO Detection Interface](./assets/streamlit_yolo_detection.png)
+<img width="580" height="722" alt="image" src="https://github.com/user-attachments/assets/7402687c-6e07-4110-af5b-d11ea6f0189d" />
+
 
 ---
 
@@ -85,8 +85,8 @@ To bridge automated deep learning with clinical expert intervention, a custom we
 * **Interactive Free-Draw Masking:** Allows radiologists to refine nodule boundaries using adjustable brush strokes.
 * **Ground Truth Persistence:** Generates binary pixel-level masks for continuous model fine-tuning and validation.
 
-*(Place image here: `assets/manual_masking_ui.png`)*  
-![Interactive Annotation Tool](./assets/manual_masking_ui.png)
+<img width="622" height="293" alt="image" src="https://github.com/user-attachments/assets/7aeec7db-0ab8-426a-9ee8-baf8b4ca87c2" />
+
 
 ---
 
